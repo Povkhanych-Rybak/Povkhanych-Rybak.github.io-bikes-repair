@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roar Cycles - Bikes Repair in Uzhhorod</title>
+    <!-- css-reset file should always go first in styles -->
+    <link rel="stylesheet" href="css-reset.css">
+    <link rel="stylesheet" href="main.css">
+    <!-- Google fonts plug in -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- font-awesome plug in -->
+    <script src="https://kit.fontawesome.com/6e64eb1256.js" crossorigin="anonymous"></script>
+    <!-- sweet alert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <!--jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script/script.js" defer></script>
+    <script src="script/form-validation.js" defer></script>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="image/logo-roar-bikes.svg" alt="logo for roar cycles">
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li class = "nav-item"><a class="nav-btn" href="#">Book Online</a>
+                        <div class="dropdown-box">
+                            <div class="nav-btn"><a href="#">Onsite Service</a></div>
+                            <div class="nav-btn"><a href="#">Parts Delivery</a></div>
+                            <div class="nav-btn"><a href="#">Request Callback</a></div>
+                        </div>
+                    </li>
+                    <li><a class="nav-btn" href="#about">About</a></li>
+                    <li><a class="nav-btn" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- mob-nav -->
+            <div class="mob-wrapper">
+              <i class="fas fa-bars"></i>
+           </div>
+        </header>
+
+        <!-- mobile menu -->
+        <div class="mob-menu">
+            <ul>
+                <li class="mob-nav-btn">
+                    <a><i class="fas fa-sort-down"></i>BOOK ONLINE</a>
+                </li>
+                <div class="mob-sub-menu">
+                    <div class="dropdown-box">
+                        <div class="nav-btn"><a href="#">Onsite Service</a></div>
+                        <div class="nav-btn"><a href="#">Parts Delivery</a></div>
+                        <div class="nav-btn"><a href="#">Request Callback</a></div>
+                    </div>
+                </div>
+
+                <li class="mob-nav-btn">
+                    <a href="#about">ABOUT</a></li>
+                <li class="mob-nav-btn">
+                    <a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+        <!-- mobile menu ends -->
+      <main>
+          <h1>Mobile bike repairs.</h1>
+        <div class="info">
+          <div class="herobox1">
+            <ul>
+              <li><i class="far fa-check-square"></i> No worries about getting your bike to the shop: we'll come to your place! </li>
+              <li><i class="far fa-check-square"></i> Upfront prices</li>
+              <li><i class="far fa-check-square"></i> Fast and convenient service</li>
+            </ul>
+              <a href="#" class="main-btn">Book Online</a>
+          </div>
+          <div class="herobox2">
+              <img src="image/image-bike-repair-service.jpg" alt="person servicing a vbie in Dublin">
+          </div>
+        </div>
+      </main>
+
+      <div class="section-header">
+        <h2>Our services</h2>
+      </div>
+      <div class="cards">
+            <div class="card">
+                <a href="#">
+                  <div class="card-inner">
+                    <div class="card-img">
+                      <img src="image/image-background-card1.jpg" alt="">
+                        <i class="fas fa-bicycle"></i>
+                    </div>
+                    <div class="card-text">
+                      <h3>Book Online</h3>
+                    </div>
+                  </div>
+                </a>
+            </div>
+            <div class="card">
+              <a href="#">
+                <div class="card-inner">
+                  <div class="card-img">
+                    <img src="image/image-background-card3.jpg" alt="">
+                        <i class="fas fa-cog"></i>
+                  </div>
+                  <div class="card-text">
+                    <h3>Service Types</h3>
+                  </div>
+                </div>
+              </a>
+
+            </div>
+            <div class="card">
+              <a href="#">
+                <div class="card-inner">
+                  <div class="card-img flip">
+                    <img src="image/image-background-card2.jpg" alt="">
+                      <i class="fas fa-phone"></i>
+                  </div>
+                  <div class="card-text">
+                    <h3>Call for Advice</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+      </div>
+      <!-- Testimonials -->
+      <div class="testimonials-wraper">
+        <div class="section-header">
+          <h2>Our happy clients</h2>
+        </div>
+        <div class="testimonials">
+            <div class="tbox">
+                <p>"I was amazed at the quality of Roar Cycles. Man, this thing is getting better and better as I learn more about it. Thank you for making it painless, pleasant and most of all hassle free."
+                </p>
+                <p>Shani O.</p>
+            </div>
+            <div class="tbox">
+                <p>"It's exactly what I've been looking for."
+                </p>
+                <p>Loralie Z.</p>
+            </div>
+            <div class="tbox hide-mobile">
+                <p>"Buy this now. Roar Cycles is the real deal! I am so pleased with this product."
+                </p>
+                <p>Zena O.</p>
+            </div>
+            <div class="tbox hide-mobile">
+                <p>"I would be lost without Roar Cycles. Great job, I will definitely be ordering again!"
+                </p>
+                <p>Timi V.</p>
+            </div>
+        </div>
+      </div>
+      <!-- Testimonials end -->
+
+      <!-- Form section -->
+      <div class="contact-section" id="contact">
+        <div class="section-header">
+          <h2>Contact us</h2>
+        </div>
+
+          <p>Do you have any questions? Do not hesitate to contact us directly. </p>
+          <p class="hide-mobile"> Tell us about your issue so we can help you more quickly.</p>
+
+          <form action="#" method = "post" id="contact-form">
+              <div class="input-wrapper">
+                  <label for="name" class="new-line">Your Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Your Name"
+                    data-rule="required">
+              </div>
+
+              <div class="input-wrapper">
+                  <label for="email" class="new-line">Your Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="roarsample@gmail.com"
+                    data-rule="required email">
+              </div>
+              <div class="input-wrapper">
+                  <label for="phone" class="new-line">Your Phone Number</label>
+                  <input
+                    type="tel"
+                    name="phone"
+                    id="phone"
+                    placeholder="+38056798457"
+                    data-rule="min">
+              </div>
+
+              <div class="input-wrapper">
+                  <textarea name="message" id="message" cols="100" rows="5" placeholder="let us kow what you think" data-rule="required max"></textarea>
+              </div>
+
+              <small  class="new-line">We'll never share your personal data with anyone else.</small>
+
+              <div class="input-wrapper">
+                  <select name="town" id="town" class="select" data-rule="required">
+                      <option value ="" selected>Choose a town</option>
+                      <option value="Uzhhorod" required>Uzhhorod</option>
+                      <option value="Mukachevo">Mukachevo</option>
+                      <option value="Other">Other</option>
+                  </select>
+              </div>
+
+              <!-- Custom checkbox -->
+              <div class="input-wraper">
+                <label class="checkbox-container">
+                  Sign me up for Email Newsletter
+                  <input type="checkbox" checked data-rule=''>
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <!-- custom checkbox end -->
+
+              <div class="input-wrapper featured">
+                  <p>How would you like to be contacted?</p>
+                <label class="container-radio">Phone
+                  <input type="radio" checked="checked" name="cont-pref" id="phone-cont-opt" data-rule="required">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container-radio">Email
+                  <input type="radio" name="cont-pref" id="email-cont-opt" data-rule="required">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <button type="submit" class="main-btn form-btn">Submit</button>
+          </form>
+      </div>
+      <!-- Form section end -->
+
+
+        <div class="section-header">
+          <h2>Why choose us</h2>
+        </div>
+
+          <div class="stat" id="about">
+              <div class="stat-item">
+                  <div class="stat-count">378</div>
+                  <div class="stat-text">Satisfied Clients</div>
+              </div>
+              <div class="stat-item">
+                  <div class="stat-count">415</div>
+                  <div class="stat-text">Tires Replaced</div>
+              </div>
+              <div class="stat-item">
+                  <div class="stat-count">402</div>
+                  <div class="stat-text">Bicycle Fixed</div>
+              </div>
+              <div class="stat-item">
+                  <div class="stat-count">15</div>
+                  <div class="stat-text">Qualified Professionals</div>
+              </div>
+          </div>
+
+          <!-- Footer starts -->
+          <footer>
+            <div class="section  section-map">
+              <div class="map-container">
+                <div class="map">
+                    <h2 class="map-title">
+                        <div><i class="fas fa-map-marker-alt"></i></div>
+                          <a href="https://goo.gl/maps/2AyK8Qd1hQCU6m4F7" target="_blank">Open Map</a>
+                      </h2>
+                  </div>
+              </div>
+            </div>
+            <div class="footer-contact">
+              <div class="address">
+                <p class="contact-info-item">Pushkin Square, 3/7, Uzhhorod, Zakarpatska region</p>
+                <p class="contact-info-item"><i class="fas fa-phone-alt"></i> +380 50 22 77 48</p>
+                <p class="contact-info-item"><i class="fas fa-envelope"></i>  roarcycles@gmail.com</p>
+              </div>
+              <div class="logo footer">
+                  <img src="image/logo-roar-bikes.svg" alt="logo for roar cycles">
+              </div>
+              <div class="footer-social-content ">
+                <div class="contact-info-item">
+                Follow Us:
+                <a href="#" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+              <p class="contact-info-item">© Uzhhorod Branch of Trade Unions of Education and Science in Ukraine</p>
+          </div>
+          </div>
+      </footer>
+      <!-- Footer ends -->
+    </div>
+</body>
+</html>
